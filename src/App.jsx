@@ -1,13 +1,18 @@
 import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
+import DigitalClock from "./components/DigitalClock"
+
+
+
 
 
 
 function App() {
   return (
     <div>
-    <Navbar/>
+
     <Hero/>
+    <DigitalClock/>
+
  
 
 
