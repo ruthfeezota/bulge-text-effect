@@ -58,10 +58,12 @@ function HeaderComponent() {
 function Credits() {
   return (
     <div className="flex fixed w-full justify-between bottom-0 p-8">
+    <a href="https://www.upleafmedia.com/">
       <p>
-        Made by{" "}
-        <a href="https://www.upleafmedia.com/">Upleaf Media</a>
+      Elevate your online presence with{" "}
+        <a href="https://www.upleafmedia.com/" className="uppercase text-16"> Upleaf Media&apos;s {" "}</a>high-performing 3D websites.
       </p>
+      </a>
     </div>
   );
 }
