@@ -1,8 +1,9 @@
-import React, { useState, useEffect} from 'react'
+import { useState, useEffect} from 'react'
 
 function DigitalClock() {
-
 const [time, setTime] = useState(new Date());
+
+
 
 useEffect (() => {
     const intervalId = setInterval(() => {
@@ -39,6 +40,7 @@ function padZero(number) {
       <button className='py-4 bg-red p-4 hover:underline'>Start Timer</button>
       <button className='py-4 bg-red p-4 hover:underline'>End Timer</button>
       </div>
+
     </div>
   )
 }
